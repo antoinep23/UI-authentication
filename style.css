@@ -5,6 +5,84 @@
   box-sizing: border-box;
   overflow: hidden;
   font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+/****************************************/
+.authentication {
+  background-color: red;
+  width: 30rem;
+  height: 55vh;
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.authentication .authentication__email {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  width: 90%;
+  height: 40px;
+  background-color: white;
+}
+.authentication .authentication__email .authentication__input {
+  width: 92%;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  color: black;
+}
+.authentication .authentication__password {
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  width: 90%;
+  height: 40px;
+  background-color: white;
+}
+.authentication .authentication__password .authentication__input {
+  width: 92%;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+  color: black;
+}
+.authentication .authentication__under {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  font-size: 10pt;
+}
+.authentication .authentication__under a {
+  text-decoration: none;
+  font-weight: 900;
+}
+.authentication .authentication__submit {
+  width: 70%;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  font-weight: 900;
+  font-size: 11pt;
+}
+.authentication .authentication__register {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 10pt;
+}
+.authentication .authentication__register .authentication__register--link {
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 10.5pt;
 }
 
 /*# sourceMappingURL=style.css.map */
