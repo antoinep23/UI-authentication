@@ -37,11 +37,11 @@ body {
   background-color: white;
 }
 .authentication .authentication__email .authentication__input {
-  width: 92%;
   height: 100%;
   border: none;
   padding: 0 10px;
   color: black;
+  width: 94%;
 }
 .authentication .authentication__email .authentication__input:focus {
   outline: none;
@@ -55,11 +55,11 @@ body {
   background-color: white;
 }
 .authentication .authentication__password .authentication__input {
-  width: 92%;
   height: 100%;
   border: none;
   padding: 0 10px;
   color: black;
+  width: 94%;
 }
 .authentication .authentication__password .authentication__input:focus {
   outline: none;
@@ -109,6 +109,15 @@ body {
 }
 .authentication .authentication__rememberMe input {
   accent-color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  .authentication .authentication__email .authentication__input {
+    width: 92%;
+  }
+  .authentication .authentication__password .authentication__input {
+    width: 92%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

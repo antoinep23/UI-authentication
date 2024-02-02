@@ -10,7 +10,6 @@
 }
 
 @mixin Input{
-    width: 92%;
     height: 100%;
     border: none;
     padding: 0 10px;
@@ -52,6 +51,7 @@ body{
         @include divInput();
         .authentication__input{
             @include Input();
+            width: 94%;
             &:focus{
                 outline: none;
             }
@@ -61,6 +61,7 @@ body{
         @include divInput();
         .authentication__input{
             @include Input();
+            width: 94%;
             &:focus{
                 outline: none;
             }
@@ -111,5 +112,20 @@ body{
         input{
             accent-color: #fff;
         }   
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .authentication{
+        .authentication__email{
+            .authentication__input{
+                width: 92%;
+            }
+        }
+        .authentication__password{
+            .authentication__input{
+                width: 92%;
+            }
+        }
     }
 }
