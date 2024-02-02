@@ -12,7 +12,7 @@
 .authentication {
   background-color: red;
   width: 30rem;
-  height: 55vh;
+  height: 50vh;
   margin: 10rem auto;
   display: flex;
   flex-direction: column;
@@ -37,6 +37,9 @@
   padding: 0 10px;
   color: black;
 }
+.authentication .authentication__email .authentication__input:focus {
+  outline: none;
+}
 .authentication .authentication__password {
   display: flex;
   align-items: center;
@@ -51,6 +54,9 @@
   border: none;
   padding: 0 10px;
   color: black;
+}
+.authentication .authentication__password .authentication__input:focus {
+  outline: none;
 }
 .authentication .authentication__under {
   display: flex;

@@ -33,7 +33,7 @@
  .authentication{
     background-color: red;
     width: 30rem;
-    height: 55vh;
+    height: 50vh;
     margin: 10rem auto;
     display: flex;
     flex-direction: column;
@@ -46,12 +46,18 @@
         @include divInput();
         .authentication__input{
             @include Input();
+            &:focus{
+                outline: none;
+            }
         }
     }
     .authentication__password{
         @include divInput();
         .authentication__input{
             @include Input();
+            &:focus{
+                outline: none;
+            }
         }
     }
     .authentication__under{
