@@ -4,9 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Sign-in</title>
+    <title>Welcome ! - Login</title>
 </head>
 <body>
+    <section class="authentication">
+        <h1 class="authentication__title">Login</h1>
+        <div class="authentication__email">
+            <input type="email" class="authentication__input email" placeholder="Email">
+            <img src="assets/images/email.png" alt="enter your email">
+        </div>
+        <div class="authentication__password">
+            <input type="password" class="authentication__input password" placeholder="Password">
+            <img src="assets/images/padlock.png" alt="enter your password">
+        </div>
+        <div class="authentication__under">
+            <div class="authentication__rememberMe">
+                <input type="checkbox" name="checkbox">
+                <label for="checkbox">Remember me</label>
+            </div>
+            <a href="#">Forgot password ?</a>
+        </div>
+        <input type="submit" value="Login">
+        <p class="authentication__register">Don't have an account ?</p><a class="authentication__register--link" href="#">Register</a>
+    </section>
     
 </body>
 </html>
